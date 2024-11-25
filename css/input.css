@@ -1,0 +1,29 @@
+@tailwind base;
+ @tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: hamid ;
+    src: url(font/BebasNeue-Regular.ttf);
+}
+@font-face {
+    font-family: hhhh;
+    src: url(font/MateSC-Regular.ttf);
+}
+@font-face {
+    font-family: mm;
+    src: url(font/EduAUVICWANTPre-VariableFont_wght.ttf);
+}
+@keyframes hamid{
+    from{
+        clip-path: polygon(0 100%, 0 100%, 0 0, 0 0);
+
+        
+    }
+    to{
+        clip-path: polygon(100% 100%, 0 100%, 0 0, 100% 0);
+
+
+
+    }
+}
